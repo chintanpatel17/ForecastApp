@@ -6,5 +6,8 @@ object Configs {
     const val versionName = "1.0"
     const val applicationId = "com.chintan.forecastapp"
 
-    const val BASE_URL = "BASE_URL"
+    const val GEO_BASE_URL = "GEO_BASE_URL"
+    const val FORECAST_BASE_URL = "FORECAST_BASE_URL"
+    const val FORECAST_APP_ID = "FORECAST_APP_ID"
+
 }
