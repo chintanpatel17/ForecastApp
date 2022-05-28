@@ -11,6 +11,7 @@ object Versions {
     // Google
     const val material = "1.6.0"
     const val hilt = "2.40.5"
+    const val hiltNavigationCompose = "1.0.0"
 
     //SquareUp
     const val retrofit = "2.9.0"

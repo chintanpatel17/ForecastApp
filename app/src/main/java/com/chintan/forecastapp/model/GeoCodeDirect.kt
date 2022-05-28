@@ -2,7 +2,7 @@ package com.chintan.forecastapp.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Direct(
+data class GeoCodeDirect(
     @SerializedName("name") val name: String,
     @SerializedName("country") val country: String,
     @SerializedName("state") val state: String,

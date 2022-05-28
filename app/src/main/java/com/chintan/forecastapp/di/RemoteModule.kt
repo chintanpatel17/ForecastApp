@@ -19,6 +19,11 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object RemoteModule {
+/*
+    @Singleton
+    @Provides
+    fun provideInternetHelper(@ApplicationContext context: Context): InternetHelper =
+        InternetHelper(context)*/
 
     @Singleton
     @Provides

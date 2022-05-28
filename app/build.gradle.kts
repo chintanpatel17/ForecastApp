@@ -102,7 +102,7 @@ dependencies {
 
     //Hilt
     implementation(Hilt.hiltAndroid)
-    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation(Hilt.hiltNavigationCompose)
     kapt(Hilt.hiltAndroidCompiler)
 
     //SquareUp
